@@ -11,9 +11,8 @@ var detection;
 
 function preload() {
   cosiAzure = loadFont('assets/CosiAzure-Bold.otf');
-  alteha_bold = loadFont('assets/ALTEHAASGROTESKBOLD.TTF');
-  alteha_regular = loadFont('assets/ALTEHAASGROTESKREGULAR.TTF');
-  tenorSans = loadFont('assets/TenorSans-Regular.TTF');
+  
+  tenorSans = loadFont('assets/TenorSans-Regular.otf');
 
 }
 
