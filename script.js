@@ -7,11 +7,11 @@ var sqX, sqY, sqW, sqH;
 faceapi.tf.setBackend('webgl');
 
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri('/Aquets/Specchio-per-GIF/master//models'),
-  faceapi.nets.faceLandmark68Net.loadFromUri('/Aquets/Specchio-per-GIF/master//models'),
-  faceapi.nets.faceRecognitionNet.loadFromUri('/Aquets/Specchio-per-GIF/master//models'),
-  faceapi.nets.faceExpressionNet.loadFromUri('/Aquets/Specchio-per-GIF/master//models'),
-  faceapi.nets.ageGenderNet.loadFromUri('/Aquets/Specchio-per-GIF/master//models')
+  faceapi.nets.tinyFaceDetector.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
+  faceapi.nets.faceLandmark68Net.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
+  faceapi.nets.faceRecognitionNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
+  faceapi.nets.faceExpressionNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
+  faceapi.nets.ageGenderNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/')
 ]).then(startVideo)
 
 function startVideo() {
