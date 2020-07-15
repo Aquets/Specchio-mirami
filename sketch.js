@@ -7,6 +7,8 @@ let alteha_regular;
 let alteha_bold;
 let tenorSans
 
+var detection;
+
 function preload() {
   cosiAzure = loadFont('assets/CosiAzure-Bold.otf');
   alteha_bold = loadFont('assets/ALTEHAASGROTESKBOLD.TTF');
