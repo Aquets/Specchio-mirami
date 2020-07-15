@@ -359,16 +359,6 @@ function stat5() {
   }
 }
 
-background(255,255,255,150 - opacity);
-
-noStroke();
-fill(0,0,0,-opacity2)
-textSize(130)
-textFont(cosiAzure)
-textAlign(CENTER)
-text("MIRAMI", width / 2, windowHeight / 2 - 50)
-
-
 //DETECTION TRIGGER ---> START STAT 1
 var average = getAvg(ageArray);
 
