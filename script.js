@@ -12,11 +12,7 @@ Promise.all([
   faceapi.nets.faceRecognitionNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
   faceapi.nets.faceExpressionNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/'),
   faceapi.nets.ageGenderNet.loadFromUri('https://raw.githubusercontent.com/Aquets/Specchio-per-GIF/master/models/')
-]).then(videoStart)
-
-function videoStart(){
-  document.getElementById("video").onclick = function(){startVideo(); console.log('we')};
-}
+]).then(startVideo)
 
 function startVideo() {
   navigator.getUserMedia(
