@@ -15,7 +15,7 @@ Promise.all([
 ]).then(videoStart)
 
 function videoStart(){
-  document.getElementById("video").onclick = function(){startVideo()};
+  document.getElementById("video").onclick = function(){startVideo(); console.log('we')};
 }
 
 function startVideo() {
