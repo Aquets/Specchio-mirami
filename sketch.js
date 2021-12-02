@@ -50,7 +50,6 @@ function draw() {
 
 
   textSize(10)
-  noCursor()
   noFill()
   strokeWeight(1)
   stroke("white")
