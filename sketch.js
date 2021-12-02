@@ -56,9 +56,9 @@ function draw() {
   stroke("white")
 
   //MOUSE pointer
-  // ellipse(mouseX, mouseY, 30)
-  // pointer.update(mouseX, mouseY);
-  // pointer.display();
+  ellipse(mouseX, mouseY, 30)
+  pointer.update(mouseX, mouseY);
+  pointer.display();
 
   //CHECK IF AGE REMAIN THE SAME FOR A WHILE
   var average = getAvg(ageArray);
